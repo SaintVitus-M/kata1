@@ -3,9 +3,9 @@ package org.ulpgc.is2;
 import java.time.LocalDate;
 
 public class Person {
-    private String name;
-    private String surname;
-    private LocalDate birthday;
+    private final String name;
+    private final String surname;
+    private final LocalDate birthday;
 
     public Person(String name, String surname, LocalDate birthday) {
         this.name = name;
